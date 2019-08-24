@@ -76,7 +76,7 @@ def usage():
 	print (''' \033[92m	Hammer-DDos Attack Tool v1.0
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	usage : python3 hammer2019.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
@@ -128,7 +128,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mloading sayang 👻\033[0m")
+	print("\033[94mPlease wait...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
