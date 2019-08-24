@@ -128,7 +128,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mloading sayang 👻\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
